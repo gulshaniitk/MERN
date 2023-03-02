@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+
+    background-image: url("https://blogs.programmingpathshala.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fbanner-image-url%2FBlog%2520Thumbnail-21.jpg&w=1200&q=50");
+    height: 340px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.heading{
+    color: rgb(8, 8, 8);
+    font-size: 48px;
+    margin: 5px;
+    padding: 10px;
+    font-weight: 900;
+    /* text-shadow: 10px 5px 0 black; */
+    word-spacing: 10px;
+    border: 5px solid red;
+    height: 300px;
+    /* letter-spacing: 10px; */
+}
+
+.about{
+
+    color: rgb(88, 85, 85);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.event_heading{
+
+    font-size: 42px;
+    font-weight: 700;
+
+}
+
+.blue_small_heading{
+    color: blue;
+    font-size: 18px;
+}
+
+.detail_heading{
+    font-size: 32px;
+    font-weight: 600px;
+}
