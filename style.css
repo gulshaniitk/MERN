@@ -7,6 +7,22 @@
     box-sizing: border-box;
 }
 
+.test1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position:fixed;
+    top: 100px;
+    left: 10px;
+}
+
+.test2{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+}
+
 .banner{
 
     background-image: url("https://blogs.programmingpathshala.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fbanner-image-url%2FBlog%2520Thumbnail-21.jpg&w=1200&q=50");
