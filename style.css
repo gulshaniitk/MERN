@@ -2,24 +2,49 @@
 
 *{
     font-family: 'Roboto Condensed', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-
-.test1{
-    background-color: red;
-    width: 100px;
-    height: 100px;
-    position:fixed;
-    top: 100px;
-    left: 10px;
+/* button {
+    display: inline-block;
+  }
+span {
+    display: inline-block;
+    margin: 10px 10px;
+  }
+button
+{
+    margin: 10px 10px;
+} */
+.navbar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+    align-items: center;
+    margin: 0px 10px;
 }
 
-.test2{
-    background-color: green;
-    width: 100px;
-    height: 100px;
+.logo{
+    order: 3;
+ 
+}
+
+.links{
+order: 1;
+display: flex;
+justify-content: space-evenly;
+flex-basis: 700px;
+flex-grow: 1;
+}
+
+.actions{
+display: flex;
+    order: 2;
+
+    flex-basis: 100px;
+justify-content: space-between;
 
 }
 
@@ -67,4 +92,17 @@
 .detail_heading{
     font-size: 32px;
     font-weight: 600px;
+}
+
+.explore_courses{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 25px;
+    margin:10px 10px;
+    text-align: center;
+}
+
+.lld{
+    display: block;
 }
